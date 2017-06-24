@@ -82,21 +82,21 @@ a{
 button{
     display: inline;
 }
-a{
-    padding: 5px 6px 2px 4px;
-    margin: 2px 5px 2px 8px;
-    text-decoration: none;
-    font-size: 20px;
-    text-align: center;
-    color: #FFF;
-    outline: none;
-    border-style: none;
-    border-radius: 3px;
-    box-shadow: 1px 1px 1px #90A4AE;
-    display: block;
-    background-color: #fc1924;
-    margin-top: 10px;
-}
+/*a{*/
+/*    padding: 5px 6px 2px 4px;*/
+/*    margin: 2px 5px 2px 8px;*/
+/*    text-decoration: none;*/
+/*    font-size: 20px;*/
+/*    text-align: center;*/
+/*    color: #FFF;*/
+/*    outline: none;*/
+/*    border-style: none;*/
+/*    border-radius: 3px;*/
+/*    box-shadow: 1px 1px 1px #90A4AE;*/
+/*    display: block;*/
+/*    background-color: #fc1924;*/
+/*    margin-top: 10px;*/
+/*}*/
 .show-block{
     position: absolute;
     top: 200px;
