@@ -1,15 +1,9 @@
-<h3>
-    Todo <%=params[:id]%>
-</h3>
-<h3>
-    Todo <%=params["x"]%>
-</h3>
-        <div class="show-block">
+         <div class="show-block">
             <h1><%=@pomodoro_title%></h1>
             <h2><%=@pomodoro_description%></h2>
             <h3><%=@pomodoro_estimate%> pomodoros</h3>
             <input type="checkbox"><label for="it"> Did you do it</label><br/>
             <a href="#">Edit</a>
             <a href="#">Delete</a>
-            <a href="index">Return</a>
+            <a href="/todo/index">Return</a>
         </div>
