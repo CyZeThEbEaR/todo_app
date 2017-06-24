@@ -1,8 +1,9 @@
-<head>
-        <title>To Do List</title>
-        <link rel="stylesheet" href="/show.css">
-    </head>
-    <body>
+<h3>
+    Todo <%=params[:id]%>
+</h3>
+<h3>
+    Todo <%=params["x"]%>
+</h3>
         <div class="show-block">
             <h1>Wake Up</h1>
             <h2><%=@pomodoro_description%></h2>
@@ -12,6 +13,3 @@
             <a href="#">Delete</a>
             <a href="index.html">Return</a>
         </div>
-     </body>
-     
-    
