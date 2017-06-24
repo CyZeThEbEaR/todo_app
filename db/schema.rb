@@ -17,7 +17,7 @@ ActiveRecord::Schema.define(version: 20170624195252) do
   enable_extension "plpgsql"
 
   create_table "todos", force: :cascade do |t|
-    t.string   "discription"
+    t.string   "description"
     t.integer  "pomodoro_estimate"
     t.boolean  "complete"
     t.datetime "created_at",        null: false

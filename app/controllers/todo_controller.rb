@@ -5,9 +5,10 @@ class TodoController < ApplicationController
     def show
         todo_id=params[:id]
         if todo_id == '1'
-            @pomodoro_title= "Wake up"
-            @pomodoro_estimate=4
-            @pomodoro_description="Start the day of great"
+            @todo=Todo.find_by_id(todo_id)
+           # @pomodoro_title= "Wake up"
+          #    @pomodoro_estimate=4
+          #  @pomodoro_description="Start the day of great"
         elsif todo_id == '2'
             @pomodoro_title= "Get ready for the Day"
             @pomodoro_estimate=3
